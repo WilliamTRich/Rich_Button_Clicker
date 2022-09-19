@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <nav>
+        <h1>Dojonary</h1>
+        <input type="search" placeholder="search" class="searchBar">
+        <button class="blue" onclick="signIn(this)">Login</button>
+    </nav>
+    <main>
+        <div class="ninja container">
+            <div class="columnOne">
+                <p><b>Ninja</b><br><i>noun</i><br>Plural: <i>ninjas</i></p>
+                <button class="yellow" onclick="alertUser()">13 Likes</button>
+            </div>
+            <div class="columnTwo">
+                <p>A practitioner skilled in the
+                <br><a href="#">Japanese&nbsp</a>art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="programmer container">
+            <div class="columnOne">
+                <p><b>Ninja</b><br><i>noun</i><br>Plural: <i>ninjas</i></p>
+                <button class="yellow" onclick="alertUser()">37 Likes</button>
+            </div>
+            <div class="columnTwo">
+                <p>A <a href="#">programmer&nbsp</a> who breaks
+                <br>down problems with <a href="#">zen</a>-like<br>focus</p>
+            </div>
+        </div>
+        <div class="dojonary container">
+            <p class="columnOne">Dojonary is <br>defined by <strong>YOU</strong></p>
+            <button class="green" onclick="removeButton(this)">Add Definition</button>
+        </div>
+    </main>
+</body>
+</html>
